@@ -1,0 +1,18 @@
+# === Rust-specific ===
+/target/           # Build output
+**/*.rs.bk         # Backup files from some editors
+# Cargo.lock         # Optional for libraries, keep for binaries
+
+# === VSCode ===
+.vscode/launch.json     # User-specific debug config
+.vscode/settings.json   # Editor prefs (optional to ignore)
+
+/.vscode/*              # Optional: ignore everything under .vscode
+
+# === macOS system files ===
+.DS_Store
+
+# === Other ===
+*.log
+*.tmp
+*.swp

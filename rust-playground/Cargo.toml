@@ -1,0 +1,14 @@
+[package]
+name = "rust-playground"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "plawan"
+path = "src/plawan_main.rs"
+
+[[bin]]
+name = "pushpita"
+path = "src/pushpita_main.rs"

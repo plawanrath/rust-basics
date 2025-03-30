@@ -1,0 +1,1 @@
+/Users/plawanrath/Documents/GitHub-public/rust-basics/rust-playground/target/debug/plawan: /Users/plawanrath/Documents/GitHub-public/rust-basics/rust-playground/src/plawan/starter.rs /Users/plawanrath/Documents/GitHub-public/rust-basics/rust-playground/src/plawan_main.rs

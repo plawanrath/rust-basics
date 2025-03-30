@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Plawan",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/plawan",
+        "args": [],
+        "cwd": "${workspaceFolder}"
+      },
+      {
+        "name": "Debug Pushpita",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/pushpita",
+        "args": [],
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }

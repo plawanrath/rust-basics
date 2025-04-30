@@ -1,18 +1,39 @@
-# === Rust-specific ===
-/target/           # Build output
-**/*.rs.bk         # Backup files from some editors
-# Cargo.lock         # Optional for libraries, keep for binaries
+# === Rust ===
+/target
+**/*.rs.bk
+Cargo.lock
 
-# === VSCode ===
-.vscode/launch.json     # User-specific debug config
-.vscode/settings.json   # Editor prefs (optional to ignore)
+# === Build output ===
+/debug
+/release
 
-/.vscode/*              # Optional: ignore everything under .vscode
+# === IDEs ===
 
-# === macOS system files ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# === OS files ===
+
+# macOS
 .DS_Store
 
-# === Other ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === Logs and temp ===
 *.log
 *.tmp
 *.swp
+*.swo
+
+# === Node (if using wasm or web tools) ===
+node_modules/
+dist/
